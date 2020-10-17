@@ -32,5 +32,5 @@ lbl_res_5 = Label(root, text=" Enter your Email ", font=("Times New Roman", 14, 
 lbl_res_6 = Label(root, text=" Enter your Password ", font=("Times New Roman", 14, "normal"), bg="lightblue", fg="blue").place(x=180,y=360)
 
 
-#Indicate End of windows and to hold windows infinitely
+#Indicate to hold windows infinitely
 root.mainloop()
