@@ -39,5 +39,5 @@ txt_pass.place(x=180, y=200)
 #Defining button
 btn = Button(root, text="Submit",font=("Times New Roman", 14, "normal"), bg="orange", fg="brown", padx=20, cursor="hand2", activebackground="lightgreen", activeforeground="green").place(x=200,y=250)
 
-#Indicate End of windows and to hold windows infinitely
+#Indicate to hold windows infinitely
 root.mainloop()
