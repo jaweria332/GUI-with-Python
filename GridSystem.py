@@ -32,5 +32,5 @@ lbl_res_3 = Label(root, text=" Enter your Password ", font=("Times New Roman", 1
 #bg defines background color
 #fg defines background color
 
-#Indicate End of windows and to hold windows infinitely
+#Indicate to hold windows infinitely
 root.mainloop()
