@@ -16,5 +16,5 @@ root.config(bg="#262626")
 #Declaring whether windows in resizable or not
 root.resizable(False, False)
 
-#Indicate End of windows and to hold windows infinitely
+#Indicate to hold windows infinitely
 root.mainloop()

@@ -40,5 +40,5 @@ res_entry=Label(root, font=("Times New Roman", 18, "normal"), bg="black", fg="wh
 res_entry.place(x=140, y=300)
 
 
-#Indicate End of windows and to hold windows infinitely  *.md; *.txt; *.rst; *.adoc; *.html
+#Indicate to hold windows infinitely  *.md; *.txt; *.rst; *.adoc; *.html
 root.mainloop()
