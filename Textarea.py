@@ -23,7 +23,7 @@ def show_data():
 
 
 var_data=StringVar()
-#------------------------------TEXTAREA---------------------------#
+#------------------------------TEXTAREA using text---------------------------#
 
 txt_Text=Text(root, font=("Times New Roman", 14, "normal"), bg="white", fg="black")
 txt_Text.place(x=180, y=200, height=80, width=200)
