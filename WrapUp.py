@@ -48,5 +48,5 @@ check_condition = Checkbutton(root, text="Agree terms and conditions", variable=
 btn = Button(root, text="Submit",font=("Times New Roman", 14, "normal"), bg="orange", fg="brown", padx=20, cursor="hand2", activebackground="lightgreen", activeforeground="green").place(x=200,y=250)
 
 
-#Indicate End of windows and to hold windows infinitely  *.md; *.txt; *.rst; *.adoc; *.html
+#Indicate End of windows and to hold windows infinitely
 root.mainloop()
