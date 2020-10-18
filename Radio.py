@@ -34,5 +34,5 @@ gender.set("male")
 #Defining button
 btn = Button(root, text="Submit",font=("Times New Roman", 14, "normal"), bg="orange", fg="brown", padx=20, cursor="hand2", activebackground="lightgreen", activeforeground="green", command=get_gender).place(x=200,y=300)
 
-#Indicate End of windows and to hold windows infinitely  *.md; *.txt; *.rst; *.adoc; *.html
+#Indicate End of windows and to hold windows infinitely
 root.mainloop()
