@@ -5,7 +5,7 @@ from tkinter import *
 root=Tk()
 
 #Define title of your window
-root.title("Gets Started with Python GUI")
+root.title("TEXTAREA")
 
 #Defining the windows size
 root.geometry("800x500+300+80")
