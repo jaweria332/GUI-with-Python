@@ -20,7 +20,7 @@ root.config(bg="#262626")
 root.resizable(False, False)
 
 #Importing image
-my_img=ImageTk.PhotoImage(file="Images/cloud3.png")
+my_img=ImageTk.PhotoImage(file="E:\\Python GUI\\GUI-with-Python\\Images\\cloud1.jpg")
 
 #Defining label for images 
 lbl_img=Label(root, text="Cloud", image=my_img,compund=LEFT, font=("times new roman", 20, "bold"))
