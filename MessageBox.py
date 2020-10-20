@@ -9,7 +9,7 @@ from tkinter import messagebox
 root=Tk()
 
 #Define title of your window
-root.title("Message Box for user")
+root.title("MESSAGE BOX")
 
 #Defining the windows size
 root.geometry("500x600+700+80")

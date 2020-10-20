@@ -5,7 +5,7 @@ from tkinter import *
 root=Tk()
 
 #Define title of your window
-root.title("Gets Started with Python GUI")
+root.title("RADIO BUTTONS")
 
 #Defining the windows size
 root.geometry("500x600+700+80")
