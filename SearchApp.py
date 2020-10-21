@@ -1,8 +1,9 @@
 #Import libraries
+
+import wikipedia
 from tkinter import *
 from tkinter import messagebox
 
-import wikipedia
 #Defining class for search app
 class SearchApp:
     def __init__ (self, root):
@@ -21,16 +22,17 @@ class SearchApp:
 
         #defining variable
         self.var_search=StringVar()
+
         #Defining Entry for search
-        entry_search=Entry(self.root, font=("courier new", 16, "normal"), bg="white", fg="black")
+        entry_search=Entry(self.root, textvariable=self.var_search, font=("courier new", 16, "normal"), bg="white", fg="black")
         entry_search.place(x=250, y=100, width=400)
 
         #Defining search button
-        search_btn=Button(self.root, text="Search", command=search_text, font=("courier new", 14, "normal"), bg="orange", fg="brown", activebackground="lightgreen", activeforeground="green")
+        search_btn=Button(self.root, text="Search", command=self.search_text, font=("courier new", 14, "normal"), bg="orange", fg="brown", activebackground="lightgreen", activeforeground="green")
         search_btn.place(x=680, y=100, width=100)
 
         #Defining Reset button
-        search_btn=Button(self.root, text="Reset", font=("courier new", 14, "normal"),command=clear_text, bg="orange", fg="brown", activebackground="lightgreen", activeforeground="green")
+        search_btn=Button(self.root, text="Reset", font=("courier new", 14, "normal"),command=self.clear_text, bg="orange", fg="brown", activebackground="lightgreen", activeforeground="green")
         search_btn.place(x=800, y=100,width=100)
 
         #Defining Enable button
@@ -77,7 +79,7 @@ class SearchApp:
 
     #Defining function for reset
     def search_text(self):
-        if self.var_search.get(""):
+        if self.var_search.get()=="":
             messagebox.showerror("Error", "Search area is empty!")
 
         else:
