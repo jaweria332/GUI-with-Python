@@ -77,7 +77,7 @@ class SearchApp:
         self.txt_frame.config(state=DISABLED)
         self.lbl_mode.config(text="APP MODE : DISABLED")
 
-    #Defining function for reset
+    #Defining function for search
     def search_text(self):
         if self.var_search.get()=="":
             messagebox.showerror("Error", "Search area is empty!")
